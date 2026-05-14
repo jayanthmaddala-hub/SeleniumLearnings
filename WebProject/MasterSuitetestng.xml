@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <groups>
+		<run>
+			<include name="UI"></include>
+			<exclude name= "progression"></exclude>
+		</run>
+	</groups> -->
+  <suite-files>
+	  <suite-file path="./EEtestng.xml"></suite-file>
+	  <suite-file path="./Progressiontestng.xml"></suite-file>
+  </suite-files>
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Progression">
+  <test name="Prog">
+	<!-- <groups>
+		<run>
+			<include name="regression"/>	
+		</run>
+	</groups> -->
+    <classes>
+      <class name="loginLogout.TestNGAnnotations"/>
+      <class name="loginLogout.TestNGroups"/>
+      <class name="loginLogout.UseAssertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
