@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Capturing Screenshot on Failure]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testng2.ListClass"/>
+  </listeners>
+  <test thread-count="5" name="Capturing Screenshot on Failure(failed)">
+    <classes>
+      <class name="testng2.LauchApp">
+        <methods>
+          <include name="LauchApplication"/>
+          <include name="LauchDriver"/>
+          <include name="CloseDriver"/>
+        </methods>
+      </class> <!-- testng2.LauchApp -->
+    </classes>
+  </test> <!-- Capturing Screenshot on Failure(failed) -->
+</suite> <!-- Failed suite [Capturing Screenshot on Failure] -->

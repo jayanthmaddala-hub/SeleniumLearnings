@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Launch the driver by passing parameters]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Launch the driver by passing parameters(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="loginLogout.DriverClass">
+        <methods>
+          <include name="LaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- loginLogout.DriverClass -->
+    </classes>
+  </test> <!-- Launch the driver by passing parameters(failed) -->
+</suite> <!-- Failed suite [Launch the driver by passing parameters] -->
